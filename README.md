@@ -39,8 +39,15 @@ startAnimation(): Inicia la animación de desplazamiento de la flecha. (No hay p
 stopAnimation(): Detiene la animación de desplazamiento de la flecha. (No hay parámetros ni retorno)
 ### Descripción:
 Este botón muestra una flecha y, al ser clicado, realiza una animación desplazando la flecha hacia la izquierda. La animación es controlada por un temporizador (Timer) que mueve gradualmente la posición de la flecha.
+
 # Repositorio
 ## Link del repositorio: https://github.com/ArtoriasKnight9/Botones_Dinamicos_Animados.git 
-# AA Funcionamiento
+
+#  Funcionamiento
 Puedes ver un ejemplo de como funcionan estos componentes en el 
 siguiente enalce ----> https://youtu.be/0ew4C4-hZe8
+
+## Tutorial
+Agrega estos botones a tu proyecto de Java en el siguiente link tendras un pequeño tutoeial de como agregar estos botones 
+Link -----> https://youtu.be/I2DW3I4hKTQ 
+
