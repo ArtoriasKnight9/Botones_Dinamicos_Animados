@@ -34,10 +34,10 @@ setColorFondo(Color color): Establece el color de fondo del botón. (Parámetro:
 Este botón crea un efecto de partículas al ser clicado. Las partículas son representadas por objetos de la clase Particle, que se mueven aleatoriamente en la pantalla.
 
 ## BotonFlecha
-## Métodos:
+### Métodos:
 startAnimation(): Inicia la animación de desplazamiento de la flecha. (No hay parámetros ni retorno)
 stopAnimation(): Detiene la animación de desplazamiento de la flecha. (No hay parámetros ni retorno)
-## Descripción:
+### Descripción:
 Este botón muestra una flecha y, al ser clicado, realiza una animación desplazando la flecha hacia la izquierda. La animación es controlada por un temporizador (Timer) que mueve gradualmente la posición de la flecha.
 
 # AA Funcionamiento
