@@ -22,7 +22,23 @@ Los 2 componentes "Botón con particulas" y "Botón flecha" son componentes del 
 + JDK 21 o superior
 + IDE con soporte para Swing si se desea visualizar el componente gráficamente (por ejemplo, NetBeans o IntelliJ IDEA).
 
+### API
 
+## BotonConParticulas
+### Propiedades configurables:
+colorFondo: Color de fondo del botón. (Tipo: java.awt.Color)
+### Métodos:
+getColorFondo(): Devuelve el color de fondo actual del botón. (Tipo de retorno: java.awt.Color)
+setColorFondo(Color color): Establece el color de fondo del botón. (Parámetro: color de tipo java.awt.Color)
+### Descripción:
+Este botón crea un efecto de partículas al ser clicado. Las partículas son representadas por objetos de la clase Particle, que se mueven aleatoriamente en la pantalla.
+
+## BotonFlecha
+## Métodos:
+startAnimation(): Inicia la animación de desplazamiento de la flecha. (No hay parámetros ni retorno)
+stopAnimation(): Detiene la animación de desplazamiento de la flecha. (No hay parámetros ni retorno)
+## Descripción:
+Este botón muestra una flecha y, al ser clicado, realiza una animación desplazando la flecha hacia la izquierda. La animación es controlada por un temporizador (Timer) que mueve gradualmente la posición de la flecha.
 
 # AA Funcionamiento
 Puedes ver un ejemplo de como funcionan estos componentes en el 
